@@ -20,26 +20,19 @@ nav a {
 
 
 .courses{
-    display: grid;
-    grid-template-columns:1fr 4fr;
-    grid-auto-rows: 1fr; 
+    display: flex;
+    flex-wrap: wrap;
     width: 100vw;
     align-items: start;
     
 }
 
-.class{
-    grid-column-start:1;
-}
 
-.courses>p{
-    grid-column-start:2;
-}
 
-.divide{
-    grid-column-start: span 2;
+.course>p{
+    flex-grow:4;
+    justify-content: center;
 }
-
 
 
 
@@ -66,10 +59,6 @@ tried solutions from online but nothing worked. Not sure how i can fix it.
     nav{
         display:flex;
         flex-direction: column;
-    }
-
-    hr{
-        width:100vw;
     }
     
 }
