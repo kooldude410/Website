@@ -25,7 +25,7 @@ function writefunction(userinput){
 };
 
 function askfunction(){
-
+    ///the extra code was to just help me clearify some things, will try to simplify in future
     var userinput = prompt('Please enter a 4 digit number');
     var inputlength = userinput.length;
     var x;
