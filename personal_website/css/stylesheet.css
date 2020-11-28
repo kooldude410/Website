@@ -19,7 +19,7 @@ nav a {
 
 
 
-.courses{
+.block{
     display: grid;
     grid-template-columns:1fr 4fr;
     grid-auto-rows: 1fr; 
@@ -40,6 +40,10 @@ nav a {
     grid-column-start: span 2;
 }
 
+.date{
+    color: black;
+}
+
 
 
 
@@ -52,7 +56,7 @@ tried solutions from online but nothing worked. Not sure how i can fix it.
 
 
 @media screen and (max-width: 800px) {
-    .courses{
+    .block{
         display:flex;
         flex-direction: column;
         
